@@ -1,6 +1,7 @@
 {
-  "name": "react-example",
+  "name": "snack",
   "private": true,
+  "homepage": "https://roberthsu2004.github.io/snack",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

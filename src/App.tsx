@@ -37,7 +37,7 @@ export default function App() {
         {/* 機關 Logo 標誌 */}
         <div className="flex justify-center md:justify-start mb-6">
           <img 
-            src="/images/新北市政府稅捐稽徵處.png" 
+            src={`${import.meta.env.BASE_URL}images/新北市政府稅捐稽徵處.png`}
             alt="新北市政府稅捐稽徵處 Logo" 
             className="h-14 md:h-16 w-auto object-contain brightness-105 hover:brightness-110 transition-all duration-300"
             referrerPolicy="no-referrer"

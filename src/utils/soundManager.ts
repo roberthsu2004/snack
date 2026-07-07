@@ -115,9 +115,10 @@ class SoundManager {
         }
       };
 
-      const bgmPath = encodeURI('/sounds/背景聲.wav');
-      const eatPath = encodeURI('/sounds/吃食物.mp3');
-      const gameOverPath = encodeURI('/sounds/gameover.wav');
+      const baseUrl = import.meta.env.BASE_URL;
+      const bgmPath = encodeURI(`${baseUrl}sounds/背景聲.wav`);
+      const eatPath = encodeURI(`${baseUrl}sounds/吃食物.mp3`);
+      const gameOverPath = encodeURI(`${baseUrl}sounds/gameover.wav`);
 
       const [hasBgm, hasEat, hasGameOver] = await Promise.all([
         checkFile(bgmPath),

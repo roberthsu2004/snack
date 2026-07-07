@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Snack
 
-# Run and deploy your AI Studio app
+這是一個以 Vite + React 建立的貪食蛇遊戲，已調整為可直接部署到 GitHub Pages。
 
-This contains everything you need to run your app locally.
+## 本地開發
 
-View your app in AI Studio: https://ai.studio/apps/7c8ae369-d5a4-4e53-8b59-e064f638ebc3
+1. 安裝依賴：`npm install`
+2. 啟動開發伺服器：`npm run dev`
+3. 建置靜態檔案：`npm run build`
 
-## Run Locally
+## GitHub Pages 部署
 
-**Prerequisites:**  Node.js
+此專案已包含 GitHub Actions 工作流程，推送到 `main` 分支時會自動部署到 GitHub Pages。
 
+部署後網址預設為：
+https://roberthsu2004.github.io/snack/
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+> 若第一次使用，請在 GitHub Repository 設定中開啟 Pages，來源選擇「GitHub Actions」。
