@@ -1,0 +1,6 @@
+{
+  "name": "Snake 貪食蛇遊戲",
+  "description": "經典的貪食蛇遊戲，支援電腦鍵盤與手機虛擬按盤操作，提供現代美觀的 UI 介面與個人最高得分紀錄。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
